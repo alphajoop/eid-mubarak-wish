@@ -71,6 +71,6 @@ h2 {
 @media (max-width: 512px) {
     body {
         
-        background-position-x: right;
+        background-position-x: left;
     }
 }
