@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
 
 * {
-    font-family: 'Raleway', sans-serif;
-    overflow: hidden;
-}
-
-body,
-html {
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
 }
 
 body {
@@ -16,10 +12,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: auto;
     height: 100vh;
-    margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -72,4 +66,11 @@ h2 {
 #message-container {
     left: 100%;
     text-align: right;
+}
+
+@media (max-width: 512px) {
+    body {
+        
+        background-position-x: right;
+    }
 }
